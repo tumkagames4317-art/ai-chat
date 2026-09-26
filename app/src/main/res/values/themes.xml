@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme -->
+    <style name="Theme.AIFrankenstein.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorScheme">@style/DarkColorScheme</item>
+        <item name="android:windowBackground">@color/bg_deep</item>
+        <item name="android:statusBarColor">@color/bg_deep</item>
+        <item name="android:navigationBarColor">@color/bg_panel</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.AIFrankenstein.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorScheme">@style/LightColorScheme</item>
+        <item name="android:windowBackground">@color/bg_deep_light</item>
+        <item name="android:statusBarColor">@color/bg_deep_light</item>
+        <item name="android:navigationBarColor">@color/bg_panel_light</item>
+    </style>
+
+    <!-- Default Theme (follows system) -->
+    <style name="Theme.AIFrankenstein" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorScheme">@style/DarkColorScheme</item>
+        <item name="android:windowBackground">@color/bg_deep</item>
+        <item name="android:statusBarColor">@color/bg_deep</item>
+        <item name="android:navigationBarColor">@color/bg_panel</item>
+    </style>
+
+    <style name="DarkColorScheme">
+        <item name="colorPrimary">@color/accent_lime</item>
+        <item name="colorPrimaryContainer">@color/accent_emerald</item>
+        <item name="colorOnPrimary">@color/bg_deep</item>
+        <item name="colorPrimaryInverse">@color/bg_panel</item>
+        <item name="colorOnPrimaryContainer">@color/accent_lime</item>
+        <item name="colorSecondary">@color/accent_olive</item>
+        <item name="colorSecondaryContainer">@color/border_moss</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorOnSecondaryContainer">@color/accent_lime</item>
+        <item name="colorTertiary">@color/accent_lime_dim</item>
+        <item name="colorTertiaryContainer">@color/bg_panel_raised</item>
+        <item name="colorOnTertiary">@color/text_primary</item>
+        <item name="colorOnTertiaryContainer">@color/accent_lime</item>
+        <item name="colorBackground">@color/bg_deep</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorSurface">@color/bg_panel</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/bg_panel_raised</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorSurfaceInverse">@color/text_primary</item>
+        <item name="colorOnSurfaceInverse">@color/bg_deep</item>
+        <item name="colorError">@color/state_error</item>
+        <item name="colorErrorContainer">#410E0B</item>
+        <item name="colorOnError">#F9DEDC</item>
+        <item name="colorOnErrorContainer">@color/accent_lime</item>
+        <item name="colorOutline">@color/border_moss</item>
+        <item name="colorOutlineVariant">@color/border_moss</item>
+        <item name="colorScrim">@color/bg_overlay</item>
+        <item name="colorShadow">#000000</item>
+    </style>
+
+    <style name="LightColorScheme">
+        <item name="colorPrimary">@color/accent_lime_light</item>
+        <item name="colorPrimaryContainer">@color/accent_emerald</item>
+        <item name="colorOnPrimary">@color/bg_deep_light</item>
+        <item name="colorPrimaryInverse">@color/bg_panel_light</item>
+        <item name="colorOnPrimaryContainer">@color/accent_lime_light</item>
+        <item name="colorSecondary">@color/accent_olive</item>
+        <item name="colorSecondaryContainer">@color/border_moss_light</item>
+        <item name="colorOnSecondary">@color/text_primary_light</item>
+        <item name="colorOnSecondaryContainer">@color/accent_lime_light</item>
+        <item name="colorTertiary">@color/accent_lime_dim</item>
+        <item name="colorTertiaryContainer">@color/bg_panel_raised_light</item>
+        <item name="colorOnTertiary">@color/text_primary_light</item>
+        <item name="colorOnTertiaryContainer">@color/accent_lime_light</item>
+        <item name="colorBackground">@color/bg_deep_light</item>
+        <item name="colorOnBackground">@color/text_primary_light</item>
+        <item name="colorSurface">@color/bg_panel_light</item>
+        <item name="colorOnSurface">@color/text_primary_light</item>
+        <item name="colorSurfaceVariant">@color/bg_panel_raised_light</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_light</item>
+        <item name="colorSurfaceInverse">@color/text_primary_light</item>
+        <item name="colorOnSurfaceInverse">@color/bg_deep_light</item>
+        <item name="colorError">@color/state_error</item>
+        <item name="colorErrorContainer">#410E0B</item>
+        <item name="colorOnError">#F9DEDC</item>
+        <item name="colorOnErrorContainer">@color/accent_lime_light</item>
+        <item name="colorOutline">@color/border_moss_light</item>
+        <item name="colorOutlineVariant">@color/border_moss_light</item>
+        <item name="colorScrim">@color/bg_overlay</item>
+        <item name="colorShadow">#000000</item>
+    </style>
+</resources>

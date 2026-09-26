@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AI Frankenstein - Lesnoye Boloto (Forest Swamp) Design System -->
+    
+    <!-- Dark Theme Colors -->
+    <!-- Background -->
+    <color name="bg_deep">#0B140F</color>
+    <color name="bg_panel">#16261C</color>
+    <color name="bg_panel_raised">#1D3226</color>
+    <color name="bg_overlay">#00000080</color>
+    
+    <!-- Borders -->
+    <color name="border_moss">#2E4A38</color>
+    <color name="border_light">#3E7C59</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_lime">#9ADB4E</color>
+    <color name="accent_lime_dim">#6E9E3A</color>
+    <color name="accent_emerald">#3E7C59</color>
+    <color name="accent_olive">#6B8E23</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#E8F0E2</color>
+    <color name="text_secondary">#A9BFA6</color>
+    <color name="text_tertiary">#6B8E23</color>
+    <color name="text_disabled">#4A5A45</color>
+    
+    <!-- State Colors -->
+    <color name="state_warning">#B5651D</color>
+    <color name="state_error">#8C3B2E</color>
+    <color name="state_success">#7FBF3F</color>
+    <color name="state_info">#3E7C59</color>
+    
+    <!-- Surface Colors -->
+    <color name="surface">#1D3226</color>
+    <color name="surface_variant">#2E4A38</color>
+    <color name="surface_inverse">#E8F0E2</color>
+    
+    <!-- Light Theme Colors (Tumannoye Utro - Foggy Morning) -->
+    <color name="bg_deep_light">#EAF0E4</color>
+    <color name="bg_panel_light">#DCE6D3</color>
+    <color name="bg_panel_raised_light">#C8D8C4</color>
+    <color name="text_primary_light">#16261C</color>
+    <color name="text_secondary_light">#3E7C59</color>
+    <color name="accent_lime_light">#5E9A2E</color>
+    <color name="border_moss_light">#3E7C59</color>
+    
+    <!-- Semantic Colors for Compose -->
+    <color name="color_primary">@color/accent_lime</color>
+    <color name="color_primary_container">@color/accent_emerald</color>
+    <color name="color_on_primary">@color/bg_deep</color>
+    <color name="color_secondary">@color/accent_olive</color>
+    <color name="color_secondary_container">@color/border_moss</color>
+    <color name="color_on_secondary">@color/text_primary</color>
+    <color name="color_tertiary">@color/accent_lime_dim</color>
+    <color name="color_tertiary_container">@color/bg_panel_raised</color>
+    <color name="color_on_tertiary">@color/text_primary</color>
+    
+    <!-- Background colors for Compose -->
+    <color name="color_background">@color/bg_deep</color>
+    <color name="color_on_background">@color/text_primary</color>
+    <color name="color_surface">@color/bg_panel</color>
+    <color name="color_on_surface">@color/text_primary</color>
+    <color name="color_surface_variant">@color/bg_panel_raised</color>
+    <color name="color_on_surface_variant">@color/text_secondary</color>
+    
+    <!-- Error colors for Compose -->
+    <color name="color_error">@color/state_error</color>
+    <color name="color_error_container">#410E0B</color>
+    <color name="color_on_error">#F9DEDC</color>
+    <color name="color_on_error_container">@color/accent_lime</color>
+    
+    <!-- Outline colors for Compose -->
+    <color name="color_outline">@color/border_moss</color>
+    <color name="color_outline_variant">@color/border_moss</color>
+    
+    <!-- Scrim colors for Compose -->
+    <color name="color_scrim">@color/bg_overlay</color>
+    
+    <!-- Inverse colors for Compose -->
+    <color name="color_inverse_primary">@color/bg_panel</color>
+    <color name="color_inverse_on_primary">@color/text_primary</color>
+    <color name="color_inverse_surface">@color/text_primary</color>
+    <color name="color_inverse_on_surface">@color/bg_deep</color>
+</resources>

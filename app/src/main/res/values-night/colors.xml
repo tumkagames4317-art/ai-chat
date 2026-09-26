@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night theme colors (same as dark for now) -->
+    <color name="bg_deep">#0B140F</color>
+    <color name="bg_panel">#16261C</color>
+    <color name="bg_panel_raised">#1D3226</color>
+    <color name="border_moss">#2E4A38</color>
+    <color name="accent_lime">#9ADB4E</color>
+    <color name="accent_lime_dim">#6E9E3A</color>
+    <color name="accent_emerald">#3E7C59</color>
+    <color name="accent_olive">#6B8E23</color>
+    <color name="text_primary">#E8F0E2</color>
+    <color name="text_secondary">#A9BFA6</color>
+    <color name="state_warning">#B5651D</color>
+    <color name="state_error">#8C3B2E</color>
+    <color name="state_success">#7FBF3F</color>
+</resources>
